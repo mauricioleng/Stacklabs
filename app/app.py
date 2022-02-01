@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import joblib
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import power_transform
 from sklearn.cluster import KMeans
