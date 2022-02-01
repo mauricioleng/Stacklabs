@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.title('Projeto Stack Labs')
 st.subheader('**Agrupamento e Classificação de Clientes**')
 
-data=pd.read_csv('.\\app\\dataset\\olist.csv')
+data=pd.read_csv('.\app\dataset\olist.csv')
 
 hide_dataframe_row_index = """
             <style>
