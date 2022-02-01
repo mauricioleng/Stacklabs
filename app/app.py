@@ -9,7 +9,7 @@ st.header("Classificação de Clientes Olist")
 st.subheader("Insira os dados para a classificação")
 
 def get_history_data():
-    data = pd.read_csv('.\\app\\dataset\\rfm_dataset.csv')
+    data = pd.read_csv('rfm_dataset.csv')
     data.set_index('customer_unique_id')
     return data
 
